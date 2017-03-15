@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Smart Security </title>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+<link href="assets/css/font-awesome.css" rel="stylesheet">
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<style>
+html,body
+{
+  height:100%;
+  width: 100%;
+  margin: 0px;
+  padding-top:50px;
+  overflow-x: hidden;
+}
+body
+{
+  font-family: 'Open Sans', sans-serif;
+
+}
+.navbar
+{
+  background-color:#f7f6f2;
+  margin: 0px;
+}
+.navbar-default a.navbar-brand
+{
+  font-size:20px;
+  color:black;
+  text-transform: uppercase;
+}
+#mynavigation a
+{
+  color:black;
+  text-transform: uppercase;
+}
+#mynavigation a:hover
+{
+  color: blue;
+}
+#home
+{
+  position:relative;
+  margin-top:-50px;
+}
+#home .container
+{
+  position: absolute;
+  margin-top: -550px;
+  width:100%;
+}
+#home .container h1
+{
+  font-size: 80px;
+  color:#464141;
+  font-family: 'Open Sans', sans-serif;
+}
+#homeimg
+{
+width:100%;
+height:600px;
+}
+.line
+{
+  width:300px;
+  border-top: 2px solid #464141;
+}
+.scroll-icon
+{
+  margin-top:290px;
+}
+.scroll-icon a
+{
+  color:#464141;
+   font-size:30px;
+   border:1px solid #464141;
+   padding:15px 14px 5px 16px;
+   border-radius:50%;
+}
+section
+{
+  min-height:500px;
+  margin-top:50px;
+}
+section-heading
+{
+  font-size:45px;
+}
+section-content
+{
+  color:grey;
+  font-family: 'Open Sans', sans-serif;
+  padding:20px 20px 20px 20px;
+}
+
+#aboutus img
+{
+ margin-bottom:20px;
+}
+.theimg
+{
+  height:200px;
+  width:200px;
+  margin-top: 25px;
+}
+.productimg
+{
+  height:200px;
+  width:200px;
+  margin-top:20px;
+}
+.productimg:hover
+{
+  border:1px solid black;
+}
+.round-button
+{
+  border-radius: 40px;
+}
+.teamimg
+{
+  border:2px solid grey;
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  margin: 0 auto;
+}
+.team-about
+{
+  padding-top: 20px;
+}
+.team-social-links a
+      {
+          font-size:20px;
+          color:grey;
+          margin-right:10px;
+      }
+.team-social-links a:hover
+      {
+        color:blue;
+        text-decoration:none;
+      }
+.team-line
+            {
+              border-top:1px solid #ccc;
+            }
+.section-area
+{
+  margin-bottom:40px;
+}
+.numbers-data
+{
+  margin-top: 60px;
+}
+#what-people-think .nav li
+{
+  font-size:20px;
+  margin-top:100px;
+  display: inline-block;
+}
+#what-people-think p
+{
+  font-size: 30px;
+}
+#what-people-think
+{
+  text-align: center;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+      }
+@media (max-width:500px)
+{
+  #home .container h1
+  {
+    font-size:50px;
+  }
+  .meeting-point
+  {
+    margin-bottom: 20px;
+  }
+  .team-social-links i
+  {
+    margin-bottom: 30px;
+  }
+}
+footer
+{
+  background: rgba(30,30,30,.9);
+}
+.footer-links li
+{
+  display: inline-block;
+  padding:9px;
+  font-size: 16px;
+  color: white;
+}
+.footer-links a:hover
+{
+  text-decoration: none;
+}
+.footer-center-content
+{
+  color: grey;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.white-content
+{
+  color:white;
+}
+.footer-icons li
+{
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+}
+</style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavigation" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="#home">Smart Security</a>
+      </div>
+      <div class="collapse navbar-collapse" id="mynavigation">
+        <ul class="nav navbar-nav navbar-right">
+        <li>
+        <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i> </a>
+       </li>
+       <li>
+       <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+     </li>
+     <li>
+       <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i> </a>
+     </li>
+      </ul>
+        <ul class="nav navbar-nav navbar-right ">
+         <li><a href="#home">home</a></li>
+         <li><a href="#aboutus">about us</a></li>
+         <li><a href="#what-we-do">what we do</a></li>
+         <li><a href="#products">products</a></li>
+         <li><a href="#tools">Tools</a></li>
+         <li><a href="#what-people-think">Testimonials</a></li>
+         <li><a href="#numbers">Numbers</a></li>
+         <li><a href="#meet-our-team">Team</a></li>
+         <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+  <section id="home">
+    <img id="homeimg" src="assets/images/home.jpg">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center">SMART SECURITY</h1>
+        <hr class="line">
+        <div class="scroll-icon text-center">
+           <a href="#aboutus">
+             <span class="glyphicon glyphicon-chevron-down"></span>
+           </a>
+        </div>
+     </div>
+    </div>
+  </section>
+
+<section id="aboutus">
+  <div class="container">
+    <div class="row">
+      <div class="section-area">
+       <h1 class="text-center section-heading">ABOUT US</h1>
+       <hr class="line">
+     </div>
+       <p class="section-content text-center"> Smart Security is one of the leading IT security solutions company. Each Smart Security product is designed to simplify IT security management across the length and depth of devices and on multiple platforms. They are customized to suit consumers, small businesses, Government establishments and corporate houses.</p>
+   </div>
+   <div class="row">
+     <div class="col-md-4">
+       <img src="assets/images/one.jpg" class="img-responsive">
+       <img src="assets/images/r_u_safe.jpg" class="img-responsive">
+     </div>
+     <div class="col-md-4">
+       <img src="assets/images/three.jpg" class="img-responsive">
+       <img src="assets/images/five.jpg" class="img-responsive">
+     </div>
+     <div class="col-md-4">
+       <img src="assets/images/six.jpg" class="img-responsive">
+     </div>
+   </div>
+ </div>
+ </div>
+</section>
+
+<section id="what-we-do">
+  <div class="container">
+    <div class="row">
+      <div class="section-area">
+       <h1 class="text-center section-heading">WHAT WE DO</h1>
+       <hr class="line">
+      </div>
+      <div class="container">
+      <div class"row">
+       <div class="col-md-4 text-center">
+        <h2>SS Defense</h2>
+        <p>Stops all forms of attacks, prevent attacks automatically; online and offline.
+        Customize security policies to optimize protection for each asset group. Easily visualize the attack chain to hunt down attackers and see exactly what they are trying to do.</p>
+       <img class="theimg" src="assets/images/Cb-Defense.png">
+      </div>
+      <div class="col-md-4 text-center">
+       <h2>SS Response</h2>
+       <p>Incident response and threat hunting tool offers continuous visibility that capture all activity with 100% continuous recording.
+        Real time response and proactive threat hunting detects the most advanced threats.</p>
+       <img class="theimg" src="assets/images/response.png">
+      </div>
+      <div class="col-md-4 text-center">
+       <h2>SS Protection</h2>
+       <p>SS Protection provides the most proven application control solution for enterprise endpoints and critical systems. Lock down system stops all file-based and next-generation attacks and also prevents the unwanted changes. It allow updates to previously-approved software without additional approvals.</p>
+       <img class="theimg" src="assets/images/Protection2.png">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+  <section id="products">
+    <div class="container">
+      <div class="row">
+        <div class="section-area">
+         <h1 class="text-center section-heading">OUR FAMOUS FREEBIES</h1>
+          <hr class="line">
+        </div>
+          <div class="row">
+          <div class="col-md-4 text-center">
+           <h2>Internet Security</h2>
+          <p>Bank, chat, email, and browse online with round-the-clock security.
+          It secures your financial transactions on the Internet and automatically blocks infected, fake and phishing websites.
+          Also blocks spam, infected, and phishing emails.</p>
+          <img class="productimg" src="assets/images/secure.jpg">
+        <div style="margin-top:20px;">
+         <a href="#" class="btn btn-primary">know more</a>
+       </div>
+     </div>
+        <div class="col-md-4 text-center">
+        <h2>Total Security</h2>
+        <p>For secure online banking, smooth Internet surfing, and robust protection for your PC.
+         Safe Banking protects your financial data during online banking and shopping.
+         Parental Control lets you manage and control Internet and computer access for your kids.</p>
+        <img class="productimg" src="assets/images/totalsecurity.jpg">
+        <div style="margin-top:20px;">
+         <a href="#" class="btn btn-primary">know more</a>
+       </div>
+     </div>
+      <div class="col-md-4 text-center">
+       <h2>Security For MAC</h2>
+      <p>Eliable Internet security created to protect your Mac against spam and other online threats. Automatic updates secure your Mac from latest threats. Protection against all cross platform malware makes file exchange free for individual users or in corporate environments.</p>
+      <img class="productimg" src="assets/images/macsecurity.jpg">
+      <div style="margin-top:20px;">
+       <a href="#" class="btn btn-primary">know more</a>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+  <section id="tools">
+    <div class="container">
+      <div class="row">
+        <div class="section-area">
+         <h1 class="text-center section-heading">PREMIUM UI TOOLS</h1>
+         <hr class="line">
+       </div>
+       <div class="row">
+        <div class="col-md-4 text-center">
+         <h2>Antivirus Pro</h2>
+         <p>Tough on malware, light on your PC. Protects your data from data-stealing malware. Stops unknown threats that traditional antivirus software don’t. Automatically blocks those websites that can infect your PC.</p>
+         <img class="productimg" src="assets/images/antiviruspro.jpg">
+         <div style="margin-top:20px;">
+          <a href="#" class="btn btn-primary">know more</a>
+        </div>
+       </div>
+       <div class="col-md-4 text-center">
+         <h2>TunePC 2.1</h2>
+         <p>If you want to know how to speed up your PC, then look no further than SS TunePC.It gets rid of junk files from your PC, Deletes traces of mostly used applications in the system, Deletes files securely.</p>
+         <img class="productimg" src="assets/images/tunepc.jpg">
+         <div style="margin-top:20px;">
+          <a href="#" class="btn btn-primary">know more</a>
+        </div>
+       </div>
+       <div class="col-md-4 text-center">
+        <h2>Fontastic 3</h2>
+        <p>Helps your device perform faster, Enhances battery life, Locks your apps like Facebook, Twitter, Gmail, etc. Also protects your photos, videos, messages and other personal information.</p>
+        <img class="productimg" src="assets/images/fontastic.png">
+        <div style="margin-top:20px;">
+         <a href="#" class="btn btn-primary">know more</a>
+       </div>
+       </div>
+     </div>
+   </div>
+  </div>
+ </section>
+
+<section id="what-people-think">
+  <div class="container">
+      <div class="section-area">
+         <h1 class="text-center section-heading">WHAT PEOPLE THINK</h1>
+         <hr class="line">
+      </div>
+      <div class="container">
+        <div class="tab-content quotes add-animation animation-2 animate">
+          <div class="tab-pane" id="one">
+             <p>“It tracks everything. Really. It correlates and provides a timeline of events. You can literally peruse the killchain. You can also find out everyplace a file exists and you can ban it making it very easy to stop an infection.”</p>
+             <h2 class="text-right">Abhay</h2>
+         </div>
+         <div class="tab-pane active" id="two">
+           <div>
+             <p>"Protection provides application whitelisting and really helps us only allow approved software to run on our systems.The tech support is fantastic and for good reason – you will most likely need them. Deploying the agent is easy.”</p>
+             <h2 class="text-right">Kevin</h2>
+           </div>
+        </div>
+        <div class="tab-pane" id="three">
+            <p>"The team at Smart Security is awesome. They work continuously to build a strong platform and are flexible enough to be able to flow through the changing architecture of security, creating a great product with awesome features.”</p>
+            <h2 class="text-right">Elizabeth</h2>
+        </div>
+        <div class="tab-pane" id="four">
+            <p>“Ability to record and replay events and tuning capability to record fewer event types for nodes with limited connectivity of low bandwidth. Excellent forensic tool for understanding how an attack occurred.”</p>
+            <h2 class="text-right">Filicity</h2>
+       </div>
+      </div>
+      <ul class="nav nav-text lisi-logos" style="display:inline-block" role="tablist">
+      <li>
+      <a href="../#one" role="tag" data-toggle="tab" aria-expanded="false">ABHAY</a>
+      </li>
+      <li class="active">
+      <a href="../#two" role="tab" data-toggle="tab" aria-expanded="true">KEVIN</a>
+      </li>
+      <li>
+      <a href="../#three" role="tag" data-toggle="tab" aria-expanded="false">ELIZABETH</a>
+      </li>
+      <li>
+      <a href="../#four" role="tag" data-toggle="tab" aria-expanded="false">FILICITY</a>
+    </li>
+  </ul>
+ </div>
+</section>
+
+<section id="numbers">
+  <div class="container">
+    <div class="row">
+      <div class="section-area">
+        <h1 class="text-center section-heading">NUMBERS DON'T LIE</h1>
+        <hr class="line">
+      </div>
+      <h3 class="text-center">"Started from the bottom now we are here"- Elina</h3>
+      <div class="col-md-4">
+        <div class="numbers-data text-center">
+        <h2 >Users</h2>
+        <h3>Business and Professionals</h3>
+        <h1>116.000+</h1>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="numbers-data text-center">
+        <h2 >Downloads</h2>
+        <h3>Freebies and UI Tools</h3>
+        <h1>186.000+</h1>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="numbers-data text-center">
+        <h2 >Countries</h2>
+        <h3>Where we made Sponsorships</h3>
+        <h1>14</h1>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="meet-our-team">
+    <div class="container">
+       <div class="row">
+         <div class="section-area">
+           <h1 class="text-center section-heading">MEET OUR TEAM</h1>
+           <hr class="line">
+         </div>
+       </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+              <img class="teamimg" src="assets/images/oliver.jpg">
+              <h2 class="text-center">Oliver Broyne</h2>
+              <p class="team-about">Oliver Broyne is responsible for all security operations for Smart Security. He joined the company from Marper Laboratory, where he was director of information security. Prior to that, Broyne was vice president, threat and vulnerability management – information security at BIT Group.</p>
+              <hr width="80%" class="team-line">
+              <div class="team-social-links text-center">
+                  <a href="http://google.com" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                  <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i> </a>
+                  <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+              </div>
+          </div>
+          <div class="col-md-4 text-center">
+              <img class="teamimg" src="assets/images/elina.jpg">
+              <h2>Elina Kristene</h2>
+              <p class="team-about">Elina Kristene has led Smart Security as president and chief executive officer since 2015. Under his direction, the company has grown from a startup into the market share leader in Next-Generation Endpoint Security. Today,Smart Security has approximately 2,000 worldwide customers, including 25 of the Fortune 100 and nearly 500 employees.</p>
+              <hr width="80%" class="team-line">
+              <div class="team-social-links text-center">
+                    <a href="http://google.com" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                    <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i> </a>
+                    <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+              </div>
+          </div>
+          <div class="col-md-4 text-center">
+              <img class="teamimg" src="assets/images/james.jpg">
+              <h2>James Mortimar</h2>
+              <p class="team-about">Dr. James Mortimar is the VP of Threat at Smart Security. In this role he is responsible for both original threat research and operationalizing threat intelligence. He is an expert on data analysis and holds multiple patents and has authored numerous publications related to data analytics for large security-related data sets. </p>
+              <hr width="80%" class="team-line">
+              <div class="team-social-links text-center">
+                    <a href="http://google.com" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                    <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i> </a>
+              </div>
+         </div>
+      </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+     <div class="row">
+       <div class="section-area">
+         <h1 class="text-center section-heading">CONTACT US</h1>
+         <hr class="line">
+       </div>
+       <div class="row">
+         <div class="col-md-4">
+           <div class="meeting-point">
+           <h3 class="text-center">Where to Meet?</h3>
+           <h4 class="text-center">N-81 Barakhamba Road Connaught Place, New Delhi</h4>
+           <h3 class="text-center">What to say hello?</h3>
+           <div class="text-center">
+             <a href="#" class="btn btn-primary">Contact Me</a>
+           </div>
+           <h2 class="text-center">Thank You for 928 Shares!</h2>
+           <div class="col-md-6">
+             <button  class="btn btn-lg">
+              <i class="fa fa-facebook"></i> Facebook
+              </button>
+           </div>
+           <div class="col-md-6">
+             <button  class="btn btn-lg">
+              <i class="fa fa-twitter"></i> Twitter
+              </button>
+           </div>
+         </div>
+         </div>
+         <div class="col-md-8">
+           <div id="map">
+           </div>
+         </div>
+     </div>
+   </div>
+ </div>
+ </section>
+
+ <footer>
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <div class="footer-links text-center">
+           <ul>
+             <li>
+               <a href="#">Home</a>
+             </li>
+             <li>
+               <a href="#">Contact</a>
+             </li>
+             <li>
+               <a href="#">Blog</a>
+             </li>
+             <li>
+               <a href="#">Scholarships</a>
+             </li>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="footer-center-content text-center">
+           &copy; copyright <span class="white-content">Smart Security</span>2016
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="footer-icons text-center">
+           <ul>
+             <li>
+               <a href="http://google.com" target="_blank"> <i class="fa fa-twitter"></i> </a>
+             </li>
+             <li>
+             <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+           </li>
+           <li>
+             <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i> </a>
+           </li>
+           </ul>
+       </div>
+     </div>
+   </div>
+ </div>
+ </footer>
+
+ <script>
+      function initMap() {
+        var uluru = {lat:28.631139, lng:77.222053};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEi7fJGBWSurlIQ1kzeTWA83KQshH96gs&callback=initMap">
+        </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="assets/js/bootstrap.js"></script>
+
+</body>
+</html>
